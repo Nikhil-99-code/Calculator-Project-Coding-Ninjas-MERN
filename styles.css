@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(212, 224, 230);
+}
+
+
+
+
+
+/* Utility Classes */
+.flex{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.btn{
+    font-weight: 600;
+    font-size: 1rem;
+    font-style: oblique;
+    padding: 6px;
+    width: 60px;
+    cursor: pointer;
+    border: 1px solid rgb(116, 114, 114);
+    border-radius: 8px;
+}
+
+
+/* Top Navigation Bar */
+
+.top-nav-bar{
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    position: sticky;
+}
+
+/* Toggle Switch Styling */
+.switch{
+    position: relative;
+    margin-left: 30px;
+    margin-top: 40px;
+    margin-left: 60px;
+}
+
+
+/* Main Calculator designing */
+
+.container{
+    border: 3px solid rgb(45, 45, 85);
+    border-radius: 15px;
+    margin: 20px;
+    padding: 5px 10px ;
+    width: 20rem;
+    height: 390px;
+    padding-inline: 20px;
+    line-height: 20px;
+    word-spacing: 3px;
+    margin-left: 40%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background: linear-gradient(to right, rgb(109, 186, 192), rgb(110, 66, 131));
+    /* background-color: rgb(61, 99, 175); */
+    transition: 0.5s ease-in;
+}
+
+.container:hover{
+    box-shadow: 0 0 8px 5px;
+    cursor: pointer;
+    background: linear-gradient(to right, rgb(57, 85, 87), rgb(63, 37, 75));
+}
+
+/* Styling calculator buttons */
+
+.row{
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+/* Styling display */
+
+.display{
+    height: 70px;
+    width: 270px;
+    font-size: 1.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 2px solid rgb(109, 109, 96);
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 7px;
+}
+
+/* Designing the Navigation Bar */
+
+.top-nav-bar{
+    margin-top: 0;
+    height: 100px;
+    width: 100%;
+    background-color: rgba(17, 10, 49, 0.842);
+    display: flex;
+}
+
+#logo{
+    font-size: 2rem;
+    font-weight: 530;
+    color: rgb(249, 250, 250);
+    background-color: rgb(25, 25, 66);
+    border: 3px solid rgb(28, 28, 138);
+    border-radius: 30px;
+    padding: 7px;
+    border-style: none;
+    transition: 0.4s ease;
+}
+
+.logo-display{
+    margin-top: 20px;
+    margin-left: 14px;
+}
+
+#logo:hover{
+    background-color: rgb(224, 224, 31);
+    color: black;
+    box-shadow: 0 0 5px 3px rgb(226, 226, 214);
+}
+
+/* Footer Design */
+
+.footer{
+    background-color: rgba(17, 10, 49, 0.911);
+    padding: 20px;
+    
+}
+.footer-container{
+    justify-content: center;
+    gap: 30px;
+    flex-direction: row;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
