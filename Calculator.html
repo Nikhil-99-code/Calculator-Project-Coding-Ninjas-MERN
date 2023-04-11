@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Calci !: Project</title>
+    <link rel="stylesheet" href="CalciStyle.css">
+</head>
+<body>
+
+    <!-- Top Section Navbar -->
+    <div class="top-nav-bar">
+        <!-- Logo Calculator -->
+        <div class="logo-display">
+            <a href="#" id="hover-effect"><h1 id="logo">CalCi.io</h1></a>
+        </div>
+
+        <!-- Toggle Switch    -->
+        <div class="switch">
+            <label class="switch-toggle">
+                <input type="checkbox">
+                <span class="slider round"></span>
+            </label>
+        </div>
+    </div>
+
+    <!-- Main Calculator -->
+    <div class="container flex">
+        <div class="row" id="text-display">
+            <input type="text" class="display" />
+        </div>
+
+        <div class="row">
+            <button class="btn" style="background-color: rgb(238, 70, 70); color: rgb(255, 250, 240);">mc</button>
+            <button class="btn" style="background-color: rgb(238, 70, 70); color: rgb(255, 250, 240);">m+</button>
+            <button class="btn" style="background-color: rgb(238, 70, 70); color: rgb(255, 250, 240);">m-</button>
+            <button class="btn" style="background-color: rgb(238, 70, 70); color: rgb(255, 250, 240);">mr</button>
+        </div>
+
+        <div class="row">
+            <button class="btn" style="background-color: rgb(240, 240, 90);">AC</button>
+            <button class="btn" style="background-color: rgb(240, 240, 90);">&#10140;</button>
+            <button class="btn" style="background-color: rgb(240, 240, 90);">+\-</button>
+            <button class="btn" style="background-color: rgb(240, 240, 90);">/</button>
+        </div>
+
+        <div class="row">
+            <button class="btn">7</button>
+            <button class="btn">8</button>
+            <button class="btn">9</button>
+            <button class="btn" style="background-color: rgb(240, 240, 90);">*</button>
+        </div>
+
+        <div class="row">
+            <button class="btn">4</button>
+            <button class="btn">5</button>
+            <button class="btn">6</button>
+            <button class="btn"
+            style="background-color: rgb(240, 240, 90);">-</button>
+        </div>
+        <div class="row">
+            <button class="btn">1</button>
+            <button class="btn">2</button>
+            <button class="btn">3</button>
+            <button class="btn" style="background-color: rgb(240, 240, 90);">+</button>
+        </div>
+        <div class="row">
+            <button class="btn" style="background-color: rgb(16, 34, 68); color: white;">%</button>
+            <button class="btn">0</button>
+            <button class="btn">.</button>
+            <button class="btn" style="background-color: rgb(16, 34, 68); color: white;">=</button>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer">
+        <div class="footer-container flex">
+            <a href="#" class="hover-link">Privacy policy</a>
+            <a href="#" class="hover-link">Terms & Condition</a>
+            <a href="#" class="hover-link">Security Information</a>
+            <a href="#" class="hover-link"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#" class="hover-link"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+    </div>
+
+
+    <script src="calciJS.js"></script>
+</body>
+</html>
